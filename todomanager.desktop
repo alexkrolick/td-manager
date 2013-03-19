@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=To Do Manager
+GenericName=To Do  List
+Comment=Edit text files
+Exec=xfce4-terminal --drop-down -x  '/usr/local/bin/todo'
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=accessories-text-editor
+Categories=GNOME;GTK;Utility;TextEditor;
+Keywords=Text;Plaintext;Write;
