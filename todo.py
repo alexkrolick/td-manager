@@ -68,9 +68,10 @@ if action == "f":
     print 'removed'
     print tl
 elif action == "h":
-    print " To archive a task:\n Enter 'd' and then the number of the task you want to delete."
-    print " To add a task:\n Enter'a' and then the text of the new item."
-    print " To edit a task:\n Enter 'e' and then the number of the task you want to change."
+    print "\nTo archive a task:\n Enter 'f' and then the number of the task you want to mark as finished."
+    print " The text of the task will be timestamped and copied into the archive file."
+    print "\nTo add a task:\n Enter'a' and then the text of the new item."
+    print "\nTo edit a task:\n Enter 'e' and then the number of the task you want to change."
 elif action == "a":
     item = raw_input('add: ')
     tl.add(item)
