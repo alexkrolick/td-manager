@@ -2,7 +2,7 @@
 Name=To Do Manager
 GenericName=To Do  List
 Comment=Edit text files
-Exec=xfce4-terminal --drop-down -x  '/usr/local/bin/todo'
+Exec=xfce4-terminal --drop-down -x  '/usr/local/bin/todo' 
 Terminal=false
 Type=Application
 StartupNotify=true
